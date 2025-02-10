@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stream Stickers Auth Redirect</title>
+</head>
+<body>
+    <script>
+        const hash = window.location.hash.substring(1);
+        window.location.href = `streamstickers://auth${hash ? '#' + hash : ''}`;
+    </script>
+</body>
+</html>
