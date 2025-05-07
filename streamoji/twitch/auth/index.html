@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>StreamStickers Auth Redirect</title>
+    <title>Streamoji Auth Redirect</title>
 </head>
 <body>
     <script>
         const hash = window.location.hash.substring(1);
-        window.location.href = `streamstickerstwitch://auth${hash ? '#' + hash : ''}`;
+        window.location.href = `streamojitwitch://auth${hash ? '#' + hash : ''}`;
     </script>
 </body>
 </html>
